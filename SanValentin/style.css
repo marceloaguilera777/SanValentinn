@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(80, 103, 206);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 500px;
+    margin: 20px;
+}
+.container .tenor-gif-embed {
+    display: flex;
+    max-width: 350px;
+}
+
+
+
+.container .btn {
+    display: flex;
+    gap: 50px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: rgb(218, 216, 109);
+    padding: 10px 25px;
+    border-radius: 8px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
+}
+
+img {
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    color: black;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+.mensaje-amor {
+    font-size: 30px;
+}
